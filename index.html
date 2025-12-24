@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+
+            </div>
+            <div class="free">
+
+            </div>
+            <div class="corporate">
+                <a href="#">Swiggy corporate</a>
+                <a href="#">Partner With Us</a>
+                <div class="getApp">
+                    <a href="#">Get the app</a>
+                    <p><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></p> 
+                </div>
+                <div class="signin">
+                    <button><a href="#">Sign in</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero-img1"></div>
+            <div class="ord-loc">
+                <div class="order">
+                    Order food & groceries. Discover best restaurants. Swiggy it!
+                </div>
+                <div class="loc-sear">
+                    <div class="location">
+                        <div class="loc-icon">
+                            <i class="fa-solid fa-location-dot" style="color: rgb(255, 82, 0);"></i>
+                        </div>
+                        <div class="loc-search">
+                            <input type="text" placeholder="Enter your delivery location">
+                        </div>
+                        <div class="loc-ops">
+                            <select>
+                                <option id="options" style="border: none;"><i class="fa-solid fa-angle-down"></i></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder=" Search for restaurant, item or more" id="searches">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-img2"></div> 
+            
+        </div>
+        <div class="hero-img3">
+                <a href="#"><div class="hero-main-img1"></div></a>
+                <a href="#"><div class="hero-main-img2"></div></a>
+                <a href="#"><div class="hero-main-img3"></div></a>
+            </div>
+    </header>
+    <main>
+        <div class="food">
+            <div class="foods-text">
+                <div class="order-button">
+                    <p id="text">Order our best food options</p>
+                    <div class="buttons">
+                        <button class="food-button" id="food-button-left" onclick="document.querySelector('.foods').scrollLeft -=1100">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="food-button" id="food-button-right" onclick="document.querySelector('.foods').scrollLeft +=1100">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="foods">
+                    <div class="food1">
+                        <a href="#">
+                            <div id="biryani"></div>
+                        </a>
+                        <a href="#">
+                            <div id="pizza"></div>
+                        </a>
+                        <a href="#">
+                            <div id="northIndian"></div>
+                        </a>
+                        <a href="#">
+                            <div id="burger"></div>
+                        </a>
+                        <a href="#">
+                            <div id="rolls"></div>
+                        </a>
+                        <a href="#">
+                            <div id="cake"></div>
+                        </a>
+                        <a href="#">
+                            <div id="southIndian"></div>
+                        </a>
+                        <a href="#">
+                            <div id="chinese"></div>
+                        </a>
+                        <a href="#">
+                            <div id="iceCream"></div>
+                        </a>
+                        <a href="#">
+                            <div id="pastry"></div>
+                        </a>
+                    </div>
+                    <div class="food2">
+                        <a href="#">
+                            <div id="kabab"></div>
+                        </a>
+                        <a href="#">
+                            <div id="shawarma"></div>
+                        </a>
+                        <a href="#">
+                            <div id="dosa"></div>
+                        </a>
+                        <a href="#">
+                            <div id="pureVeg"></div>
+                        </a>
+                        <a href="#">
+                            <div id="paratha"></div>
+                        </a>
+                        <a href="#">
+                            <div id="noodles"></div>
+                        </a>
+                        <a href="#">
+                            <div id="pasta"></div>
+                        </a>
+                        <a href="#">
+                            <div id="salad"></div>
+                        </a>
+                        <a href="#">
+                            <div id="parota"></div>
+                        </a>
+                        <a href="#">
+                            <div id="idli"></div>
+                        </a>
+                    </div>
+            </div>
+        </div>    
+
+        <div class="groceries">
+            <div class="groceries-text-button">
+                <div class="groceries-text">
+                    Shop groceries on Instamart
+                </div>
+                <div class="buttons">
+                    <button class="groceries-button" id="groceries-button-left" onclick="document.querySelector('.groceries').scrollLeft -=1100">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button class="groceries-button" id="groceries-button-right" onclick="document.querySelector('.groceries').scrollLeft +=1100">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="groceries-item-img-text">
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="vegetables"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Fresh Vegetables
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="fruits"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Fresh Fruits
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="dairy"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Dairy,Bread and Eggs
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="rice"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Rice, Atta and Dals
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="masala"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Masalas and Dry Fruits
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="oils"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Oils and Ghee
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <div class="groceries-item-img" id="munchies"></div>
+                    </a>
+                    <div class="groceries-item-text">
+                        Munchies
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,430 @@
+header{
+    background-color: rgb(255, 82, 0);
+}
+.navbar{
+    padding-top: 2rem;
+    height: 3.8rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    width:160px;
+    height:48px;
+    background-image: url("./swiggy_logo_white.avif");
+    background-size: cover;
+}
+.free{
+    width:20%
+}
+.corporate{
+    width: 45%;
+    height: 3.4rem;
+    font-size: 1.12rem;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.corporate a{
+    text-decoration: none;
+    color: white;
+}
+.getApp{
+    height: 2rem;
+    width: 7.5rem;
+    border: 0.800px solid white;
+    border-radius: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+}
+.getApp p{
+    padding: 0.4rem;
+}
+.signin button{
+    height: 3.4rem;
+    width: 8.5rem;
+    background-color: black;
+    border-radius: 0.85rem;
+}
+
+/*Hero sides*/
+.hero{
+    display: flex;
+    justify-content:space-between;
+}
+.hero-img1{
+    height: 28.125rem;
+    width: 15.625rem;
+    background-image: url("./hero1.avif");
+    background-size: cover;
+}
+.hero-img2{
+    height: 28.125rem;
+    width: 15.625rem;
+    background-image: url("./hero2.avif");
+    background-size: cover;
+}
+.ord-loc{
+    margin-top: 5rem;
+    display: block;
+}
+.order{
+    height: 10rem;
+    width:44.5rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*hero middles*/
+.loc-sear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.location{
+    width: 19.125rem;
+    height: 3.75rem;
+    background-color: white;
+    border-radius: 0.85rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.loc-icon{
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+}
+.loc-search input{
+    font-size: 0.7rem;
+}
+select{
+    margin-right: 0.8rem;
+    outline: none;
+    border: none;
+}
+input{
+    border:none;
+}
+.search{
+    margin-left: 1.5rem;
+}
+#searches{
+    height: 3.75rem;
+    width: 31.25rem;
+    border-radius: 0.85rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.hero-img3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.hero-main-img1{
+    padding: 2rem;
+    height: 18.75rem;
+    width:20.625rem;
+    background-image: url("./foodDelivery.avif");
+    background-size: cover;
+}
+.hero-main-img2{
+    padding: 2rem;
+    height: 18.75rem;
+    width:20.625rem;
+    background-image: url("./instamart.avif");
+    background-size: cover;
+}
+.hero-main-img3{
+    padding: 2rem;
+    height: 18.75rem;
+    width:20.625rem;
+    background-image: url("./dineout.avif");
+    background-size: cover;
+}
+
+
+/*Main*/
+/*Main food*/
+.food{
+    width: 62rem;
+    height:27rem ;
+    margin: 6rem;
+}
+#text{
+    color: #02060c;
+    font-size: 1.5rem;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    font-weight: 400;
+}
+.order-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.foods{
+    max-width: 62rem;
+    max-height: 22.5rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+.food-button{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.food1{
+    height: 11.25rem;
+    width: 62rem;
+    display: flex;
+}
+#biryani{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Biryani.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#pizza{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Pizza.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#northIndian{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./NorthIndian.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#burger{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Burger.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#rolls{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Rolls.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#cake{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Cake.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#southIndian{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./South\ Indian.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#chinese{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Chinese.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#iceCream{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Ice\ Cream.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#pastry{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("Pastry.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+.food2{
+    height: 11.25rem;
+    width: 62rem;
+    display: flex;
+}
+#kabab{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("Kebab.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#shawarma{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Shawarma.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#dosa{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Dosa.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#pureVeg{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Pure\ Veg.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#paratha{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Paratha.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#noodles{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Noodles.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#pasta{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Pasta.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#salad{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Salad.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#parota{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Parotta.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+#idli{
+    width: 10rem;
+    height: 11.25rem;
+    background-image: url("./Idli.avif");
+    background-size: cover;
+    margin-right: 2.5rem;
+}
+
+
+/*groceries*/
+.groceries{
+    margin-top: 6rem;
+    width: 62rem;
+    height: 18.625rem;
+    background-color: aqua;
+    margin: 6rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.groceries-text-button{
+    display: flex;
+    justify-content: space-between;
+}
+.groceries-button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.groceries-text{
+    color: #02060c;
+    display: inline;
+    font-size: 1.5rem;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    font-weight: 400;
+}
+.groceries-item-img-text{
+    margin-top: 2rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.groceries-item-img{
+    width:9rem;
+    height: 11.25rem;
+
+}
+.groceries-item-text{
+    width: 9rem;
+    height:3.75rem;
+    font-size: 1.25rem;
+    color:rgba(2, 6, 12, 0.75);
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    background-color: pink;
+}
+#vegetables{
+    background-image: url("./vegetables.avif");
+    background-size: cover;
+}
+/*#fruits{
+    background-image: url("./fruit.avif");
+    background-size: cover;
+}
+#dairy{
+    background-image: url("./dairy.avif");
+    background-size: cover;
+}
+#rice{
+    background-image: url("./rice.avif");
+    background-size: cover;
+}
+#masala{
+    background-image: url("./masala.avif");
+    background-size: cover;
+}
+#oils{
+    background-image: url("./oils.avif");
+    background-size: cover;
+}
+#munchies{
+    background-image: url("./munchies.avif");
+    background-size: cover;
+}*/
