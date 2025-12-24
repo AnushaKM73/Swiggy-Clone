@@ -104,7 +104,8 @@ header{
     font-size: 1.2rem;
 }
 .loc-search input{
-    font-size: 0.7rem;
+    font-size: 1rem;
+    outline: none;
 }
 select{
     margin-right: 0.8rem;
@@ -427,4 +428,5 @@ input{
 #munchies{
     background-image: url("./munchies.avif");
     background-size: cover;
+
 }*/
