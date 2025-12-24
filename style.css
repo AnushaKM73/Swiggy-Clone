@@ -122,8 +122,9 @@ input{
     height: 3.75rem;
     width: 31.25rem;
     border-radius: 0.85rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 500;
+    padding-left:0.5rem;
 }
 .hero-img3{
     display: flex;
@@ -430,3 +431,4 @@ input{
     background-size: cover;
 
 }*/
+
